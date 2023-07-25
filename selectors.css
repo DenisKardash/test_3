@@ -129,10 +129,13 @@ h1 {
 .form-group input, .form-group textarea {
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid darkorange;
+    border: 2px solid darkorange;
+    border-bottom-right-radius: 25px;
+    border-top: 0;
+    border-left: 0;
     background: transparent;
     color: wheat;
-    padding: 15px 10px 10px;
+    padding: 10px 10px 10px 0;
     outline: none;
     font-size: 16px;
     font-family: inherit;
