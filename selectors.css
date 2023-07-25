@@ -1,0 +1,212 @@
+/* obraschenie po nazvaniyu */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
+    max-width: 700px;
+    min-width: 500px;
+    margin: auto;
+}
+
+body {
+    background-color: #282626;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: darkorange;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    min-width: 500px;
+    /* height: 500px; */
+}
+
+h1 {
+    color: darkorange;
+    font-size: 36px;
+    margin: 0;
+}
+
+.left {
+    flex: 1;
+    margin-top: 10px;
+} 
+
+.right {
+    flex: 3;
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: right;
+    font-size: 16px;
+    
+
+}
+
+
+.imgDispl {
+    box-shadow: 0px 0px 15px orange;
+    border-radius: 50%;
+    border: 2px solid darkorange;
+}
+ 
+.links img {
+    border-radius: 8px;
+    width: 2rem;
+    border: 3px solid color darkorange;
+    margin-right: 10px;
+}
+
+
+.card {
+    border: 2px solid darkorange;
+    color: #282626;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    /* font-size: 18px; */
+    font-weight: bold;
+    box-shadow: 0px 0px 5px black;
+    background: darkorange;
+}
+
+.hobby ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+.hobby li {
+    margin: auto;
+}
+
+
+.card h2 {
+    border-left: 30px solid #282626;
+    border-radius: 10px;
+    background: orange;
+
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+                         
+
+.form h2 {
+    text-align: center;
+    color: wheat;
+}
+
+/* ---------------------------------------------- */
+.form-row {
+    margin-bottom: 10px;
+
+    display: flex;        
+        /* dlia varianta 2*/
+}
+
+    /* mogno tak (no sled variant luchshe   FLRX) */
+
+
+    /* VARIANT 1 */
+    /*     
+.form-row .form-group {
+    display: inline-block;
+    margin-right: 15px;
+    width: calc(50% - 20px);
+}  */
+
+    /* VARIANT 2 */
+.form-row .form-group {
+    margin-right: 15px;
+    width: 50%;
+} 
+
+
+.form-row .form-group:last-child {
+    margin-right: 0px;
+}
+
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid darkorange;
+    background: transparent;
+    color: wheat;
+    padding: 15px 10px 10px;
+    outline: none;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.form-group label {
+    display: block;
+    font-size: 24px;
+}
+
+
+.btn {
+    color: #282626;
+    background: darkorange;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit; 
+
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+.btn:active {
+    background: grey;
+}
+
+
+/* -------------------------------------------------------- */
+
+
+footer {
+    /* width: 300px; */
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 10px;
+    padding: 10px;
+        
+}
+footer a {
+    color: darkorange;
+    text-decoration: none;
+    /* margin-right: 10px; */
+}
+
+footer a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+footer a:active {
+    color: grey;
+}
+
+.table {
+    width: 500px;
+    border: solid;
+    margin: auto; 
+}
+.thead tr {
+    background: #282626;
+    color: darkorange;
+}
+
+.table tr td {
+    padding: 5px;
+}
+
+.tbody tr:nth-child(even) {
+    background: orange;
+}
