@@ -79,11 +79,13 @@ h1 {
 
 .hobby li a {
     text-decoration: none;
+   
     color: black;
 }
 
 .hobby li a:hover {
     color: rgb(94, 53, 3);
+    text-decoration: underline;
 }
 
 .card h2 {
